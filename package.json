@@ -2,6 +2,19 @@
   "name": "x-github-tag",
   "version": "1.0",
   "dependencies": {},
+  "repository": { 
+    "type" : "git", 
+    "url" : "http://github.com/Gioyik/x-github-tag.git"
+  },
+  "keywords": [
+    "x-tag",
+    "web-component",
+    "github"
+  ],
+  "author": {
+    "name": "Giovanny Andres Gongora Granada",
+    "email": "gioyik@gmail.com"
+  },
   "devDependencies": {
     "bower": "~0.7.0",
     "grunt": "~0.4.0",
