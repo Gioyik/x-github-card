@@ -1,3 +1,96 @@
-x-stub {
-  display: block; 
+x-github-card {
+  font: 100%/1.4em "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  color: #444;
+  -webkit-text-size-adjust: none;
+}
+
+x-github-card .user {
+  font-family: "Helvetica", Arial, sans-serif;
+  display: inline-block;
+  width: 265px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 6px;
+  position: relative;
+  background-color: #2E353C;
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+  transition: background 1000ms ease-out;
+}
+
+x-github-card .user dl,
+x-github-card .user dd {
+  margin: 0;
+}
+
+x-github-card .user dt {
+  display: none;
+}
+
+x-github-card .user-data {
+  background: #fff url('github.png') no-repeat 5px 5px;
+  background-size: 25px;
+  height: 85px;
+  border: 1px solid #D5D5D5;
+  border-bottom:0;
+}
+
+x-github-card dd.user-avatar {
+  display: inline-block;
+  margin: 20px 0 10px;
+}
+
+x-github-card .user-avatar img {
+  border-radius: 100%;
+  height: 120px;
+  width: 120px;
+  border: 3px solid #fff;
+  vertical-align: middle;
+  background-color: #fff;
+}
+
+x-github-card dd.user-name,
+x-github-card dd.user-account {
+  margin: 5px 0;
+}
+
+x-github-card .user-name {
+  font-size: 24px;
+}
+
+x-github-card .user-account {
+  font-size: 16px;
+  color: #999;
+  margin: 5px 0;
+}
+
+x-github-card .user-stats {
+  border-top: 1px groove #999;
+  position: relative;
+  top: 155px;
+}
+
+x-github-card .user-stats dd {
+  padding: 10px 20px;
+}
+
+x-github-card .user-repos,
+x-github-card .user-followers {
+  display: inline-block;
+  font-size: 22px;
+  color: #999;
+}
+
+x-github-card .user-repos:after,
+x-github-card .user-followers:after {
+  content: attr(data-stats);
+  text-transform: uppercase;
+  display: block;
+  font-size: 11px;
+  color: #666;
+  font-weight: normal;
+  line-height: 1.7em;
 }

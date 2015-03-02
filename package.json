@@ -1,6 +1,6 @@
 {
-  "name": "x-stub",
-  "version": "0.1.0",
+  "name": "x-github-tag",
+  "version": "1.0",
   "dependencies": {},
   "devDependencies": {
     "bower": "~0.7.0",
