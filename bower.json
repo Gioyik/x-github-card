@@ -1,7 +1,7 @@
 {
   "name": "x-github-card",
   "description": "A x-tag web component to show a card for your GitHub profile",
-  "version": "1.0",
+  "version": "1.0.0",
   "keywords": [
     "web-components",    
     "x-tag"
