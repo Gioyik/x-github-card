@@ -8,6 +8,7 @@ This repo is an X-Tag custom web-component stub that can be used as a starting p
 ```
 
 Result:
+
 ![Gioyik profile](demo/example.png)
 
 ## Dev Setup
@@ -39,6 +40,9 @@ That was one of the reason to make this real. People think X-Tag are not cool as
 
 ## Links
 [X-Tags Docs](http://x-tags.org/docs)
+
 [Guide for creating X-Tag Components](https://github.com/x-tag/core/wiki/Creating-X-Tag-Components)
+
 [Using X-Tag components in your applications](https://github.com/x-tag/core/wiki/Using-our-Web-Components-in-Your-Application)
+
 [github-card](https://github.com/pazguille/github-card)
