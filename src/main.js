@@ -68,15 +68,6 @@
         this.xtag.userStats.appendChild(this.xtag.userRepos);
         this.xtag.userStats.appendChild(this.xtag.userFollowersDt);
         this.xtag.userStats.appendChild(this.xtag.userFollowers);
-      },
-      inserted: function() {
-        json(url, this.user, function(response) {
-          document.querySelector('.user-name').innerHTML = response.name;
-          document.querySelector('.avatar-img').setAttribute('src', response.avatar_url);
-          document.querySelector('.user-account').innerHTML = response.login;
-          document.querySelector('.user-repos').innerHTML = response.public_repos;
-          document.querySelector('.user-followers').innerHTML = response.followers;
-        });
       }
     },
     accessors: {
