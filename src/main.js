@@ -75,7 +75,7 @@
         attribute: {}, // don't need to specify the name, it's automatically linked
         // don't need to specify a 'get' function, as this is already linked as well
         set: function(val){ // you probably want to switch the card when the 'user' attr is changed
-          json(url, this.val, function(response) {
+          json(url, val, function(response) {
             document.querySelector('.user-name').innerHTML = response.name;
             document.querySelector('.avatar-img').setAttribute('src', response.avatar_url);
             document.querySelector('.user-account').innerHTML = response.login;
